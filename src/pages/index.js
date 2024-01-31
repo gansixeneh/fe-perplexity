@@ -14,7 +14,7 @@ const TopicsPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://35.240.181.64/api/discover-thread/?format=json');
+        const response = await axios.get('http://be-perplexity.muflih-gansix.com/api/discover-thread/?format=json');
 
         const data = response.data;
         setThreadsData(data);

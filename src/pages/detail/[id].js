@@ -14,7 +14,7 @@ const DynamicPage = () => {
       try {
         if (id) {
           const response = await axios.get(
-            `http://35.240.181.64/api/thread-detail/?id=${id}`
+            `http://be-perplexity.muflih-gansix.com/api/thread-detail/?id=${id}`
           );
 
           const data = response.data;
